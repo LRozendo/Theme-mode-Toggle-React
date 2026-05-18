@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+    /* Cores de fundo */
+    --light-Container: #F8FAFC;
+    --dark-Container: #0F172A;
+
+    --light-Content: #FFFFFF;
+    --dark-Content: #1E293B;
+
+    /* Cores de conteúdo */
+    --light-title: #1E293B;
+    --dark-title: #F1F5F9;
+
+    --light-text: #334155;
+    --dark-text: #CBD5E1;
+
+    /* Bordas */
+    --light-border: 1px solid #DBEAFE;
+    --dark-border: 1px solid rgba(255, 255, 255, 0.1);
+
+    /* Sombras */
+
+    --light-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --dark-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}

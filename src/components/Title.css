@@ -1,0 +1,9 @@
+.title {
+    &.dark-Mode {
+        color: var(--dark-title);
+    };
+
+    &.light-Mode {
+        color: var(--light-title);
+    };
+}

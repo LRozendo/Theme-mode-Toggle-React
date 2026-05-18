@@ -1,0 +1,30 @@
+#Content {
+    width: 50%;
+    padding: 8px;
+    border-radius: 2px;
+
+    &.dark-Mode {
+        background-color: var(--dark-Container);
+        border: var(--dark-border);
+        box-shadow: var(--dark-shadow);
+    };
+
+    &.light-Mode {
+        background-color: var(--light-Container);
+        border: var(--light-border);
+        box-shadow: var(--light-shadow);
+    };
+
+    p {
+        font-size: large;
+        line-height: 1.5;
+
+        &.dark-Mode {
+            color: var(--dark-title);
+        };
+
+        &.light-Mode {
+            color: var(--light-title);
+        };
+    }
+}
