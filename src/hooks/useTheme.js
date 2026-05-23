@@ -7,4 +7,6 @@ export function useTheme() {
     if (!context) {
         throw new Error("useTheme deve ser usaddo dentro de um ThemeProvider")
     }
+
+    return context
 }
